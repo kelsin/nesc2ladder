@@ -1,0 +1,42 @@
+body { background-color: #2e2e2e;
+       color: #fff;
+       font-size: 18px;
+       margin: 1em auto;
+       font-family: Helvetica, arial, sans-serif; width: 932px; }
+
+a { color: #b7443f; text-decoration: none; }
+
+#wrapper { padding: 16px; background-color: #000;
+           border-radius: 16px; -moz-border-radius: 16px; }
+#content { padding: 32px; }
+
+/* Headings */
+h1 { font-size: 4.0em; padding: 0.3em 32px; }
+
+/* Nav */
+nav { padding: 0 16px; position: relative;
+      margin: 0 16px;
+      -moz-border-radius: 4px;
+      overflow: auto;
+      border-radius: 4px;
+      background-color: #2e2e2e; color: #fff;
+      border: 2px solid #fed0d2; }
+
+nav ul { overflow: auto;
+         padding: 0.3em 0 0.5em;
+         margin: 0 auto; }
+nav ul li { float: left; }
+nav ul li:before { content: '\00a0\00a0\00a0|\00a0\00a0\00a0'; }
+nav ul li:first-child:before { content: ''; }
+
+/* Pager */
+div.pager { font-size: 1.3em; font-weight: bold; padding: 0.3em 1em 0.3em 0.3em; }
+div.pager:after { content: '\00a0page'; color: #666; font-size: 0.7em; }
+div.pager span.active { color: #3f45b7; }
+div.pager span { padding-right: 6px; }
+
+/* Tables */
+table th { font-weight: bold; }
+table th, table td { text-align: left; padding: 0.3em 1em 0.3em 0.3em; }
+table tbody tr:nth-child(2n+1) td { background-color: #2e2e2e; border-left: 1px solid #000; }
+table tbody tr:nth-child(2n) td { border-left: 1px solid #2e2e2e; }
