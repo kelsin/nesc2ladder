@@ -1,0 +1,4 @@
+/* #content label was adversely affecting the matchup display */
+#content div.match div.results label {
+  float: none ;
+}
